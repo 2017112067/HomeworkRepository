@@ -1,0 +1,56 @@
+body{
+    background-color: whitesmoke;
+    width: 1020px;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid;
+    
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+#movingtitle{
+    animation-duration: 2s;
+    animation-name: movingtitle;
+}
+
+@keyframes movingtitle{
+    from{
+        margin-left:100%;
+    }
+    to{
+        margin-right:100%; 
+    }   
+}
+
+.box{
+   
+    border-style: solid;
+    margin: 5px auto;
+    width: 400px; 
+    height: 400px; 
+    float: center;
+
+}
+
+img{
+   
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 100px 0px;
+   
+}
+
+#rotatingimage:hover{
+    transition: transform 2s;
+    transform: rotate(360deg);
+}
+
+#scalingimage:hover{
+    transition: transform 2s;
+    transform: scale(2,2);
+}
