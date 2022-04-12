@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+        <title>Jean's mall-signup</title>
+    </head>
+
+    <body>
+        <h1> Welcome to Jean's mall </h1>
+        <h3> 개인정보 입력 </h3>
+
+        <p class = "flex-container">
+            <a href = "login.html">로그인하기</a>
+        </p>
+
+        <form method = "GET" action = "https://www.jeansmall.com"> 
+            <p>
+                <label>아이디: <input name = "id" type = "text" autofocus/> </label>
+            </p>
+            <p>
+                <label>생일: <input name = "date" type = "date" /> </label> 
+            </p>
+            <p>
+                <label>학년: <input name = "grade" type = "number" min = "1" max = "6" step = "1"/></label>
+            </p>
+            <p>
+                <label>이메일: <input name = "email" type = "email" required/></label>
+            </p>
+            <p>
+                <label>전화번호: <input name = "tel" type = "tel" pattern = "\(\d{3}\)\d{4}-\d{4}" /></label>
+            </p>
+            <p>
+                <label>비밀번호: <input name = "password" type = "text" placeholder = "****"/></label>
+            </p>
+            <p>
+                <input class = "button" type = "submit" value = "회원가입"/>
+                <input class = "button" type = "reset" value = "모두 지우기"/>
+            </p>
+            
+
+        </form>
+    </body>
+
+</html>
