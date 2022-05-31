@@ -1,0 +1,77 @@
+
+
+body{
+    background-color: #F7FBFC;
+    width: 1020px;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+
+a{
+    text-decoration-line: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:hover{
+    background-color: #769FCD
+}
+
+aside{
+    
+    padding: 10px;
+}
+
+
+
+
+
+
+img{
+   
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 100px 0px;
+   
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 23%;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    box-shadow: 0 0 4px 3px grey;
+}
+
+.title{
+    font-size: 1.3rem;
+}
+
+.category, .price{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+}
+
+.images{
+    width: 80%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+        <title>Jean's mall-main</title>
+        
+    </head>
+
+    <body>
+       
+        <header>
+            <h1>Jean's mall</h1>
+        </header>
+    
+        <nav class = "flex-container">
+            <a href = "login.html">로그인하기</a>
+            <a href = "signup.html">회원가입하기</a>   
+        </nav>
+
+        <div>
+            <aside>
+                <form>
+                    <div>
+                        <label for = "category">카테고리 선택</label>
+                        <select id = "category">
+                            <option selected>all</option>
+                            <option>macaron</option>
+                            <option>fruit</option>
+                            <option>icecream</option>
+                        </select>
+                   
+                    </div>
+
+                    <div>
+                        <label for = "searchTerm">검색어 입력</label>
+                        <input type = "text" id = "searchTerm" placeholder = "ex. macaron">
+                    </div>
+
+                    <div>
+                        <button>검색 결과 보기</button>
+                    </div>
+                </form>
+            </aside>
+
+            
+        </div>
+
+       <div id = "cards">
+          
+         
+       </div>
+       
+       
+
+       <script src = "script.js"></script>
+    </body>
+</html>
